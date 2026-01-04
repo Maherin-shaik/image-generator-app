@@ -1,4 +1,6 @@
 # 🖼️ AI Image Generator using Stable Diffusion
+**Live Demo**
+https://image-generator-app-87uvygnw6yzt8mcpyuse6m.streamlit.app/
 
 This project was developed **during my Data Science training** as part of hands-on learning in **Generative AI and Deep Learning**.  
 It demonstrates how state-of-the-art **Stable Diffusion models** can be integrated into a **Streamlit web application** for real-time text-to-image generation.
