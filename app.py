@@ -7,8 +7,8 @@ st.set_page_config(page_title="AI Image Generator", layout="centered")
 st.title("🖼️ AI Image Generator (Stable Diffusion XL)")
 st.write("Generate images using Hugging Face SDXL")
 
-# Get token from environment variables (Streamlit Secrets)
-hf_token = os.getenv("HF_TOKEN")
+# Get token from (Streamlit Secrets)
+hf_token = st.secrets["HF_TOKEN"]
 
 if not hf_token:
     st.error("HF_TOKEN not found. Please set it in Streamlit Secrets.")
